@@ -2,6 +2,8 @@
 
 A terminal-themed OJT (On-the-Job Training) application tracker built with the MERN stack.
 
+🔗 **Live demo:** [trackr-psi-gold.vercel.app](https://trackr-psi-gold.vercel.app/)
+
 > ⚠️ This is a learning project. I'm still getting started with full stack development — this was built step by step with AI guidance to help me understand how MongoDB, Express, React, and Node.js work together. Not a full production build, but a real working app that I'm proud of.
 
 ---
@@ -52,6 +54,7 @@ I built this to get a hands-on foundation in the MERN stack. Every file was writ
 | Frontend | React, Vite |
 | HTTP client | Axios |
 | Styling | Inline styles, JetBrains Mono |
+| Deployment | Vercel (frontend) |
 
 ---
 
@@ -115,7 +118,8 @@ JWT_SECRET=your_jwt_secret
 
 Working but not fully polished. Planned improvements when I level up:
 
-- [ ] Deploy to Render + Vercel
+- [x] Deploy frontend to Vercel
+- [ ] Deploy backend to Render
 - [ ] Add React Router for proper navigation
 - [ ] Notes/detail view per application
 - [ ] Mobile responsive layout
